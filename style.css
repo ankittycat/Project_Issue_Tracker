@@ -1,0 +1,66 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+	    text-align: center;
+        }
+        #div1, #div2 {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            max-width: 600px; /* Limit the width of the divs */
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #div2 ul {
+            list-style-type: none; /* Remove default list style */
+            padding: 0;
+        }
+        .priority-low {
+            background-color: #b0e57c; /* Pastel Green */
+        }
+        .priority-medium {
+            background-color: #ffec8b; /* Pastel Yellow */
+        }
+        .priority-high {
+            background-color: #ffcccb; /* Pastel Red */
+        }
+        .priority-label {
+            padding: 3px 7px;
+            border-radius: 3px;
+            color: black;
+        }
+        .submit-button {
+            background-color: #007bff; /* Blue */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .submit-button:hover {
+            background-color: #0056b3; /* Darker blue for hover effect */
+        }
+        .delete-button {
+            background-color: #ff4d4d; /* Red */
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .delete-button:hover {
+            background-color: #cc0000; /* Darker red for hover effect */
+        }
