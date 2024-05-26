@@ -10,11 +10,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             file_put_contents($file, implode("\n", $issues) . "\n");
         }
     }
-    // Redirect back to the main page
     header('Location: index.php');
     exit();
 } else {
-    // If accessed directly, redirect to the form
     header('Location: index.php');
     exit();
 }
