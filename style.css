@@ -10,22 +10,22 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
-            max-width: 600px; /* Limit the width of the divs */
+            max-width: 600px;
             margin-left: auto;
             margin-right: auto;
         }
         #div2 ul {
-            list-style-type: none; /* Remove default list style */
+            list-style-type: none;
             padding: 0;
         }
         .priority-low {
-            background-color: #b0e57c; /* Pastel Green */
+            background-color: #b0e57c;
         }
         .priority-medium {
-            background-color: #ffec8b; /* Pastel Yellow */
+            background-color: #ffec8b;
         }
         .priority-high {
-            background-color: #ffcccb; /* Pastel Red */
+            background-color: #ffcccb;
         }
         .priority-label {
             padding: 3px 7px;
@@ -33,7 +33,7 @@
             color: black;
         }
         .submit-button {
-            background-color: #007bff; /* Blue */
+            background-color: #007bff;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -46,10 +46,10 @@
             border-radius: 4px;
         }
         .submit-button:hover {
-            background-color: #0056b3; /* Darker blue for hover effect */
+            background-color: #0056b3;
         }
         .delete-button {
-            background-color: #ff4d4d; /* Red */
+            background-color: #ff4d4d;
             color: white;
             border: none;
             padding: 5px 10px;
@@ -62,5 +62,5 @@
             border-radius: 4px;
         }
         .delete-button:hover {
-            background-color: #cc0000; /* Darker red for hover effect */
+            background-color: #cc0000;
         }
